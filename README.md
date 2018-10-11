@@ -18,7 +18,7 @@ Maduracion: 50
 
 Confirmaciones: 6
 
-Port Main: 13781
+Port Main: 12781
 
 PortRPC: 7332
 
