@@ -1,3 +1,28 @@
+EducaCoin Core
+
+Algoritmo: Scrypt
+
+Tiempo de bloque: 1 minuto
+
+Total supply: 100.000.000
+
+Recompenza : 50 EDC
+
+Halving: 1 año se reduce a la mitad la recompenza
+
+Decimales: 8
+
+Ajuste de la dificultad: 10080 bloques (7 dias)
+
+Maduracion: 50
+
+Confirmaciones: 6
+
+Port Main: 13781
+
+PortRPC: 7332
+
+
 Educacoin Core integration/staging tree
 =====================================
 
