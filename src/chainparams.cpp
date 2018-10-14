@@ -76,11 +76,11 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 525600; // 1 año halving
-        consensus.BIP16Height = 1; // 18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0 - 11th Oct 2018 19:27:14
-        consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0");
-        consensus.BIP65Height = 1; // 18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0
-        consensus.BIP66Height = 1; // 18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0
+        consensus.BIP16Height = 0; // b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594 - 11th Oct 2018 19:27:14
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S("b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594");
+        consensus.BIP65Height = 0; // b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594
+        consensus.BIP66Height = 0; // b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594
         consensus.powLimit = uint256S("0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // 1 dia ajuste de dificultad
         consensus.nPowTargetSpacing = 1 * 60; // 1 minuto por bloque
@@ -172,10 +172,10 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 525600;
         consensus.BIP16Height = 0; // always enforce P2SH BIP16 on regtest
-        consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0");
-        consensus.BIP65Height = 1; // 18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0
-        consensus.BIP66Height = 1; // 18e7157e3848c6fa1c2e3ea54ed9195ac9ba5b1c9444fbb54c8d8945404265b0
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S("b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594");
+        consensus.BIP65Height = 0; // b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594
+        consensus.BIP66Height = 0; // b3628f3a049b0f0b332022c921f17e892b0a593289f7dfa107e4fea47f68b594
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // 1 days
         consensus.nPowTargetSpacing = 1 * 60;
