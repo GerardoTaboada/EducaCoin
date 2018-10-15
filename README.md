@@ -12,8 +12,7 @@ Halving: 1 año se reduce a la mitad la recompenza
 
 Decimales: 8
 
-Ajuste de la dificultad: 10080 bloques (7 dias)
-
+Ajuste de la dificultad: 1440 bloques (1 dia)
 Maduracion: 50
 
 Confirmaciones: 6
